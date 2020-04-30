@@ -9,6 +9,8 @@ If you do not have Laravel setup in your development environment, visit [Laravel
 - Git clone the cotenants.co repository by running ```git clone https://github.com/cotenants-co/cotenants.co.git```
 - Git add remote access to the repository by running ```git remote add development git@github.com:cotenants-co/cotenants.co.git```
 - Copy the ```.env.example``` file to main directory and rename the copied file to ```.env`
+- Run ```php artisan migrate```
+- Run ```php artisan db:seed```
 - Run ```php artisan serve```
 
 ## Front-end Development
