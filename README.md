@@ -22,4 +22,4 @@ The Front end development shall be mainly done using
 
 Other tutorials on required services for the frontend may be referred to from [Laravel Installation Guide](https://laravel.com/docs/7.x)
 
-All ```git push``` shall be done to the master branch by running ```git push development master:development```
+All ```git push``` shall be done to the development branch by running ```git push development master:development```
