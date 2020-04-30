@@ -9,7 +9,9 @@ If you do not have Laravel setup in your development environment, visit [Laravel
 - Git clone the cotenants.co repository by running ```git clone https://github.com/cotenants-co/cotenants.co.git```
 - Git add remote access to the repository by running ```git remote add development git@github.com:cotenants-co/cotenants.co.git```
 - Copy the ```.env.example``` file to main directory and rename the copied file to ```.env`
-- Run ```php artisan serve```
+- Run ```php artisan migrate``` to migrate database tables
+- Run ```php artisan db:seed``` to load faker data into database using migrations table
+- Run ```php artisan serve``` to boot the server
 
 ## Front-end Development
 The Front end development shall be mainly done using 
@@ -20,4 +22,4 @@ The Front end development shall be mainly done using
 
 Other tutorials on required services for the frontend may be referred to from [Laravel Installation Guide](https://laravel.com/docs/7.x)
 
-All ```git push``` shall be done to the master branch by running ```git push -u development master```
+All ```git push``` shall be done to the master branch by running ```git push development master:development```
